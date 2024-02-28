@@ -1,0 +1,5 @@
+mreznaVrata=8000
+brojCekaca=5
+brojRadnika=10
+adresaAplikacija1=localhost
+aplikacija1Vrata=8001

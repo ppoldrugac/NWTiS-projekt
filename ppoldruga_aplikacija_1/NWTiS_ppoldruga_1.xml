@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+<properties>
+	<comment>NWTIS ppoldruga 2023</comment>
+	<entry key="mreznaVrata">8000</entry>
+	<entry key="brojCekaca">5</entry>
+	<entry key="brojRadnika">10</entry>
+	<entry key="adresaAplikacija1">localhost</entry>
+	<entry key="aplikacija1Vrata">8001</entry>
+</properties>

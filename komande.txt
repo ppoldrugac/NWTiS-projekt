@@ -1,0 +1,13 @@
+#PAYARA FULL
+cd /opt/payara-full-6.2023.4/glassfish/bin
+./asadmin start-domain
+
+tail -f /opt/payara-full-6.2023.4/glassfish/domains/domain1/logs/server.log
+
+#BAZA
+cd /opt/hsqldb-2.7.1/hsqldb/data
+sudo java -classpath ../lib/hsqldb.jar org.hsqldb.server.Server \
+--database.0 file:nwtis_2 --dbname.0 nwtis_2 --port 9001
+
+
+java -jar target/ppoldruga_aplikacija_1-1.0.0.jar NWTiS_ppoldruga_1.txt 
